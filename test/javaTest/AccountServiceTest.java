@@ -26,7 +26,8 @@ public class AccountServiceTest {
 	@Test
 	public void mapHasKey(){
 		service.addAccountToMap("bob", "milner");
-		service.addAccountToMap("charly", "ales");
+		service.addAccountToMap("charly", "ales"
+				+ "");
 		assertTrue(service.getAccountMap().containsKey(4));
 	}
 	@Test
